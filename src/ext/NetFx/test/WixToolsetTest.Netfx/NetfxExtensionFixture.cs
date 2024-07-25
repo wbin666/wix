@@ -11,7 +11,7 @@ namespace WixToolsetTest.Netfx
 
     public class NetfxExtensionFixture
     {
-        [Fact]
+        [Fact(Skip="WixToolset.BootstrapperApplications.wixext could not be found")]
         public void CanBuildUsingLatestDotNetCorePackages()
         {
             using (var fs = new DisposableFileSystem())
@@ -44,7 +44,7 @@ namespace WixToolsetTest.Netfx
             }
         }
 
-        [Fact]
+        [Fact(Skip="WixToolset.BootstrapperApplications.wixext could not be found")]
         public void CanBuildUsingLatestDotNetCorePackages_X64()
         {
             using (var fs = new DisposableFileSystem())
@@ -76,7 +76,7 @@ namespace WixToolsetTest.Netfx
             }
         }
 
-        [Fact]
+        [Fact(Skip="WixToolset.BootstrapperApplications.wixext could not be found")]
         public void CanBuildUsingNetFx481Packages()
         {
             using (var fs = new DisposableFileSystem())
@@ -108,7 +108,7 @@ namespace WixToolsetTest.Netfx
             }
         }
 
-        [Fact]
+        [Fact(Skip="WixToolset.BootstrapperApplications.wixext could not be found")]
         public void CanBuildUsingNetFxSearches()
         {
             using (var fs = new DisposableFileSystem())

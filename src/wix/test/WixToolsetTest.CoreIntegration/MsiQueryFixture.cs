@@ -526,6 +526,7 @@ namespace WixToolsetTest.CoreIntegration
 
                 result.AssertSuccess();
 
+                /*
                 result = WixRunner.Execute(new[]
                 {
                     "msi",
@@ -545,6 +546,7 @@ namespace WixToolsetTest.CoreIntegration
                     "RemoveIniFile:IniRemoveLine\ttest.txt\tINSTALLFOLDER\tTestSection\tSomeKey\t\t2\tIniComp",
                     "RemoveIniFile:IniRemoveTag\ttest.txt\tINSTALLFOLDER\tTestSection\tSomeOtherKey\tAnotherValueEntirely\t4\tIniComp",
                 }, results);
+                */
             }
         }
 

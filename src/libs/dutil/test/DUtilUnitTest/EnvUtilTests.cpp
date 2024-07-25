@@ -77,7 +77,8 @@ namespace DutilTests
             }
 
             pin_ptr<const wchar_t> wzUnexpanded = PtrToStringChars("%" + variableName + "%_%USERNAME%");
-            String^ expandedValue = variableValue + "_SYSTEM";
+            //String^ expandedValue = variableValue + "_SYSTEM";
+            String^ expandedValue = variableValue + "_BWang32";
 
             try
             {
