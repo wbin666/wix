@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="WixToolset.Sdk">
+  <PropertyGroup>
+    <SuppressValidation>true</SuppressValidation>
+  </PropertyGroup>
   <ItemGroup>
     <LinkerBindInputPaths Include="$(RootBuildFolder)tools\$(Configuration)\x86" />
   </ItemGroup>

@@ -5,6 +5,7 @@
     <OutputName>wix-cli-$(Platform)</OutputName>
     <OutputPath>$(PackageOutputPath)</OutputPath>
     <SignOutput>true</SignOutput>
+    <SuppressValidation>true</SuppressValidation>
   </PropertyGroup>
 
   <ItemGroup>
